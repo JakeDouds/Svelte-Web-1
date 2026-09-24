@@ -14,8 +14,8 @@
         display: flex;
         align-items: center;
         gap: 2rem;
-        border: 1px solid #ccc;
-        border-radius: 5px;
+        border: 1px solid #b10808;
+        border-radius: 25px;
         padding: 1rem;
         max-width: 600px;
         margin: 1rem;
