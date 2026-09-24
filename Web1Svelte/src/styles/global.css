@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: bisque;
+    background-color: rgb(252, 208, 154);
     color: darkred;
     text-align: center;
 }
@@ -15,7 +15,7 @@ nav {
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(250, 241, 159);
     font-weight: bold;
 }
 

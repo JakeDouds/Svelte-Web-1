@@ -10,14 +10,15 @@
 
 <style>
     .card{
-
+        background-color: #ffc063;
         display: flex;
         align-items: center;
         gap: 2rem;
-        border: 1px solid #b10808;
+        border: 2px solid #b10808;
         border-radius: 25px;
         padding: 1rem;
         max-width: 600px;
         margin: 1rem;
+        bottom: 100rem;
     }
 </style>

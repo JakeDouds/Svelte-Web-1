@@ -3,16 +3,18 @@
     <p> For more info view the svelte kit tutorial</p>
     <nav>
         <a href ="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/content">Content</a>
     </nav>
 </header>
 
 <style>
     header {
-        background-color: #f8f8f8;
+        background-color: #fda053;
         padding: 1rem;
-        border-bottom: 1px solid #f8f8f8;
+        border-bottom: 1px solid #991f00;
         nav {
-            border-top: 1px solid #ccc;
+            border: 1px solid #991f00;
             margin-top: 1rem;
             padding-top: 1rem;
         }

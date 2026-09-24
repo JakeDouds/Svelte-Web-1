@@ -4,9 +4,9 @@
 
 <style>
     footer {
-        background-color: #f8f8f8;
+        background-color: #fda053;
         padding: 1rem;
-        border-top: 1px solid #ccc;
+        border-top: 1px solid #991f00;
         text-align: center;
     }
 </style>

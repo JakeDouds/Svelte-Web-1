@@ -11,6 +11,7 @@
             object-fit: cover;
             object-position: center;
             border-radius: 30px;
+            border: 2px solid #b12f08;
             /* corner-shape: squircle; */
         }
 </style>
