@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
     let title = $state("About");
 </script>
 
@@ -8,4 +8,4 @@
     <a href="/">Home</a>
     <a href="/about">About</a>
     <a href="/content">Content</a>
-</nav> -->
+</nav> --> -->
