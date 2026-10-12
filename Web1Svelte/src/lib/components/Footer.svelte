@@ -12,6 +12,6 @@
         padding: 1rem;
         border-top: 1px solid #991f00;
         text-align: center;
-        margin-top: 14rem;
+        margin-bottom: 1rem;
     }
 </style>

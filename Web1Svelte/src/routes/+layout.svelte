@@ -5,14 +5,20 @@
 	import Footer from '$lib/components/Footer.svelte';
 
 	let { children } = $props();
+
+	const navigationLinks = [
+        {label: 'Home', href: '/'},
+        {label: 'About', href: '/about'},
+        {label: 'Content', href: '/content'}
+    ]
 </script>
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<Header />
+<Header navItems = {navigationLinks} />
 
 {@render children()}
 
-<Footer />
+<Footer course="ID512 Web Development" year={2026} />

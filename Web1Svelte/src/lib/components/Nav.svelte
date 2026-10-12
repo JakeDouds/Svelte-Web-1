@@ -3,7 +3,6 @@
 </script>
 
 <nav aria-label="Main navigation">
-
     <ul>
         {#each items as item}
         <li>
@@ -15,21 +14,22 @@
 
 <style>
     nav{
-        border-top: 1px solid #ccc;
+        border-top: 1px solid #991f00;
         margin-top: 1rem;
         padding-top: 1rem;
     }
 
     ul{
         display: flex;
+        justify-content: center;
         gap: 1.5rem;
         list-style: none;
-        padding: center;
+        padding: 0;
         margin: 0;
     }
 
     a{
-        color: #3a2c00;
+        color: #581200;
         text-decoration: none;
     }
     
