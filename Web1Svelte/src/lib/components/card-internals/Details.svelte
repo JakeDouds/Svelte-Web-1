@@ -1,13 +1,12 @@
-<section>
-    <h2>Phill Connors</h2>
-    <dl>
-    <dt>Favourite song:</dt>
-    <dd>I Got You Babe</dd>
-    <dt>Pet's name:</dt>
-    <dd>Punxsutawney Phil</dd>
-    </dl>
-</section>
- 
+<script>
+    let {title = 'Example card', description = 'Card description goes here.'} = $props();
+</script>
+
+<div class="details">
+    <h2>{title}</h2>
+    <p>{description}</p>
+</div>
+
 <style>
     dl {
         display: grid;

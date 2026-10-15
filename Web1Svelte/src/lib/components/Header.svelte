@@ -1,11 +1,15 @@
+<script>
+    import Navigation from './Nav.svelte';
+    let {title = 'Sveltekit Component',
+        subtitle = 'For more info see the sveltekit tutorial',
+        navItems = []
+    } = $props();
+</script>
+
 <header>
-    <h1> Sveltekit Components Demo</h1>
-    <p> For more info view the svelte kit tutorial</p>
-    <nav>
-        <a href ="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/content">Content</a>
-    </nav>
+    <h1> {title}</h1>
+    <p> {subtitle}</p>
+    <Navigation items = {navItems} />
 </header>
 
 <style>
@@ -13,10 +17,6 @@
         background-color: #fda053;
         padding: 1rem;
         border-bottom: 1px solid #991f00;
-        nav {
-            border: 1px solid #991f00;
-            margin-top: 1rem;
-            padding-top: 1rem;
-        }
+        text-align: center;
     }
 </style>

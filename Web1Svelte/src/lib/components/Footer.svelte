@@ -1,5 +1,9 @@
+<script>
+    let {course='ID512 Web Development', year=2026} = $props();
+</script>
+
 <footer>    
-    <p>ID512 Web Development & copy; 1993</p>
+    <p>{course} &copy; {year}</p>
 </footer>
 
 <style>
@@ -8,6 +12,6 @@
         padding: 1rem;
         border-top: 1px solid #991f00;
         text-align: center;
-        margin-top: 14rem;
+        margin-bottom: 1rem;
     }
 </style>
