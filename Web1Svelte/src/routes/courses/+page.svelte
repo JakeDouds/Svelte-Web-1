@@ -4,7 +4,7 @@
 
     const courses = [
         {
-            slug: 'Programming',
+            slug: 'programming',
             title: 'programming fundamentals',
             description: 'Learn programming and problem solving'
         },
