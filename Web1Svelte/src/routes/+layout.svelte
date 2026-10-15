@@ -7,9 +7,10 @@
 	let { children } = $props();
 
 	const navigationLinks = [
-        {label: 'Home', href: '/'},
-        {label: 'About', href: '/about'},
-        {label: 'Content', href: '/content'}
+        { label: 'Home', href: '/' },
+        { label: 'About', href: '/about' },
+        { label: 'Content', href: '/content' },
+		{ label: 'Courses', href: '/courses' }
     ]
 </script>
 
